@@ -1,3 +1,5 @@
+#!/bin/bash
+
 kubectl delete deploy newdep nginx-deployment
 kubectl delete service my-service newdep
 kubectl delete ing example-ingress
